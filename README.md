@@ -1,3 +1,19 @@
 # Pterodactyl en francais
 
-## Je sais pas comment on renomme un dossier sur github 😭 Donc une fois cloné sur votre panel, renomez le dossier avec la commande ```sudo mv en fr```
+## Installation:
+
+### 1. Installer Git (pour cloner ce repo)
+```sudo apt install git```
+
+### 2. aller dans le dossier des parametres des langues
+```cd var/www/pterodactyl/resources/lang```
+
+### 3. Cloner le repo
+```git clone https://github.com/protechnopolis/pterodactyl-fr```
+
+## 4. changer le nom du dossier
+```sudo mv en fr```
+
+## 5. Redémarrer la machine 
+```sudo reboot```
+
